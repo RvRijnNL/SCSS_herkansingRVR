@@ -1,0 +1,368 @@
+body {
+  background-color: #c3cfe2;
+}
+
+.main-wrap {
+  display: block;
+}
+.main-wrap a {
+  font-size: 20px;
+  color: white;
+  font-style: bold;
+  margin-left: 10px;
+}
+
+.p3 {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  padding-bottom: 50px;
+  font-weight: bold;
+  color: grey;
+}
+
+.wrapper10 {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  background-color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.wrapper20 {
+  padding: 30px;
+  padding-top: 40px;
+  background-color: #686de0;
+  text-align: center;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.wrapper20 .p1 {
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+}
+.wrapper20 .p2 {
+  font-weight: bold;
+  color: rgb(59, 58, 58);
+  font-size: 20px;
+}
+
+.wrapper50 {
+  display: block;
+  width: 315px;
+  min-width: 315px;
+  max-width: 315px;
+}
+
+.linephoto {
+  border-radius: 30px;
+}
+
+.img1 {
+  border: solid 6px white;
+  border-radius: 100%;
+}
+
+.picture {
+  text-align: center;
+  margin-bottom: -50px;
+  margin-top: -50px;
+}
+
+@media (max-width: 390px) {
+  .wrapper100 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    grid-template-rows: 105px 105px 105px;
+    grid-template-areas: "a b c" "d e f" "g h i";
+  }
+  .position1 {
+    grid-area: a;
+    margin: 10px;
+  }
+  .position2 {
+    display: none;
+    grid-area: b;
+    margin: 10px;
+  }
+  .position3 {
+    display: none;
+    grid-area: c;
+    margin: 10px;
+  }
+  .position4 {
+    grid-area: d;
+    margin: 10px;
+  }
+  .position5 {
+    display: none;
+    grid-area: e;
+    margin: 10px;
+  }
+  .position6 {
+    display: none;
+    grid-area: f;
+    margin: 10px;
+  }
+  .position7 {
+    grid-area: g;
+    margin: 10px;
+  }
+  .position8 {
+    display: none;
+    grid-area: h;
+    margin: 10px;
+  }
+  .position9 {
+    display: none;
+    grid-area: i;
+    margin: 10px;
+  }
+}
+@media (min-width: 390px) and (max-width: 536px) {
+  .wrapper100 {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 105px 105px 105px;
+    grid-template-rows: 105px 105px 105px;
+    grid-template-areas: "a b c" "d e f" "g h i";
+  }
+  .position1 {
+    grid-area: a;
+    margin: 10px;
+  }
+  .position2 {
+    grid-area: b;
+    margin: 10px;
+  }
+  .position3 {
+    display: none;
+    grid-area: c;
+    margin: 10px;
+  }
+  .position4 {
+    grid-area: d;
+    margin: 10px;
+  }
+  .position5 {
+    grid-area: e;
+    margin: 10px;
+  }
+  .position6 {
+    display: none;
+    grid-area: f;
+    margin: 10px;
+  }
+  .position7 {
+    grid-area: g;
+    margin: 10px;
+  }
+  .position8 {
+    grid-area: h;
+    margin: 10px;
+  }
+  .position9 {
+    display: none;
+    grid-area: i;
+    margin: 10px;
+  }
+}
+.linephoto {
+  border-radius: 20px;
+}
+
+.wrapper100 {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 105px 105px 105px;
+  grid-template-rows: 105px 105px 105px;
+  grid-template-areas: "a b c" "d e f" "g h i";
+}
+.wrapper100 .button:hover button {
+  color: white;
+  background-color: black;
+  border-color: white;
+}
+.wrapper100 button {
+  position: fixed;
+  margin-left: 18px;
+  margin-top: 40px;
+  border: solid;
+  border-radius: 10px;
+  color: transparent;
+  background-color: transparent;
+}
+.wrapper100 .position1 {
+  grid-area: a;
+  margin: 10px;
+}
+.wrapper100 .position2 {
+  grid-area: b;
+  margin: 10px;
+}
+.wrapper100 .position3 {
+  grid-area: c;
+  margin: 10px;
+}
+.wrapper100 .position4 {
+  grid-area: d;
+  margin: 10px;
+}
+.wrapper100 .position5 {
+  grid-area: e;
+  margin: 10px;
+}
+.wrapper100 .position6 {
+  grid-area: f;
+  margin: 10px;
+}
+.wrapper100 .position7 {
+  grid-area: g;
+  margin: 10px;
+}
+.wrapper100 .position8 {
+  grid-area: h;
+  margin: 10px;
+}
+.wrapper100 .position9 {
+  grid-area: i;
+  margin: 10px;
+}
+
+.linephoto:hover {
+  opacity: 0.2;
+}
+
+.social-media-wrapper {
+  position: fixed;
+  right: -160px;
+  top: 100px;
+}
+
+@media (max-width: 700px) {
+  .social-media-wrapper {
+    width: 1fr;
+    min-width: 1fr;
+    max-width: 1fr;
+    size: 1fr;
+  }
+}
+.blog {
+  width: 200px;
+  background-color: #FF5757;
+}
+
+.face {
+  width: 200px;
+  background-color: #100F0D;
+}
+
+.linked {
+  width: 200px;
+  background-color: #0277B5;
+}
+
+.git {
+  width: 200px;
+  background-color: #738B95;
+}
+
+.twitter {
+  width: 200px;
+  background-color: #1D9BF0;
+}
+
+.blog:hover {
+  -webkit-animation-name: hoverleft;
+          animation-name: hoverleft;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@-webkit-keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+@keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+.git:hover {
+  -webkit-animation-name: hoverleft;
+          animation-name: hoverleft;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+.linked:hover {
+  -webkit-animation-name: hoverleft;
+          animation-name: hoverleft;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+.face:hover {
+  -webkit-animation-name: hoverleft;
+          animation-name: hoverleft;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}
+
+.twitter:hover {
+  -webkit-animation-name: hoverleft;
+          animation-name: hoverleft;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+}
+@keyframes hoverleft {
+  from {
+    transform: translateX();
+  }
+  to {
+    transform: translateX(-150px);
+  }
+}/*# sourceMappingURL=styles.css.map */
