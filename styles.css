@@ -121,7 +121,7 @@ body {
     margin: 10px;
   }
 }
-@media (min-width: 390px) and (max-width: 536px) {
+@media (min-width: 390px) and (max-width: 1024px) {
   .wrapper100 {
     height: 100%;
     display: grid;
